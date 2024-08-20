@@ -5,7 +5,7 @@ const containerSticky = document.querySelector(".sticky-header");
 const closeNav = document.querySelectorAll(".hamburger-li");
 
 hamburger[0].addEventListener(
-  "click",
+  "click",  
   () => (mobileNav.style.display = "block")
 );
 hamburger[1].addEventListener(
@@ -26,19 +26,6 @@ const scrollFunction = () => {
 };
 
 window.onscroll = () => scrollFunction();
-
-// const cursor = document.getElementById("cursor");
-
-// document.addEventListener("mousemove", (e) => {
-//   cursor.style.left = e.pageX + "px";
-//   cursor.style.top = e.pageY + "px";
-//   console.log(e.pageX, e.pageY);
-// });
-
-// document.addEventListener("scroll", () => {
-//   cursor.style.left = e.pageX + "px";
-//   cursor.style.top = e.pageY + "px";
-// });
 
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");

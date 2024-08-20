@@ -713,6 +713,11 @@ h4 {
     justify-content: center;
 }
 
+.footer-p a{
+    text-decoration: none;
+    color:var(--clr-light);
+}
+
 @media (max-width: 600px) {
     .footer-child2 {
         display: flex;
